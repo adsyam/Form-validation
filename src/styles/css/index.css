@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* :root {
+    --bg-one: #CCEEFF;
+    --bg-two: #E6EEFF;
+    --bg-three: #3377FF;
+    --bg-four:#0033CC;
+} */
+
+body {
+    background: url(https://images.unsplash.com/photo-1634876679764-422a0414d72b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
